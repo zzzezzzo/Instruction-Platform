@@ -115,6 +115,7 @@ a {
 
 .nav__icon {
     font-size: 1.25rem;
+    
 }
 
 .nav__name {
@@ -168,4 +169,8 @@ a {
 /*Rotate icon*/
 .rotate {
     transform: rotate(180deg);
+}
+#break-line{
+    height: 10px;
+    border-bottom: 5px solid rgb(129, 82, 82);
 }

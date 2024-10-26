@@ -23,7 +23,7 @@
 
                     <ul class="collapse__menu">
                         <a href="{{ route('courses.create') }}" class="collapse__sublink">add</a>
-                        <a href="#" class="collapse__sublink">Group</a>
+                        <a href="{{ route('category.index') }}" class="collapse__sublink">categories</a>
                         <a href="{{ route('courses.index_trash') }}" class="collapse__sublink">trashed</a>
                     </ul>
                 </div>

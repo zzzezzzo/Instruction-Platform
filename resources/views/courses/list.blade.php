@@ -31,14 +31,11 @@
                                                     <img style="width:70px" src="{{ asset('public/courses/' . $course->image) }}" 
                                                         class="avatar avatar-sm me-3" alt="user1">
                                                 </div>
-                                                {{-- <div class="d-flex flex-column justify-content-center">
-                                                    <h6 class="mb-0 text-sm">{{ $course->name }}</h6>
-                                                    <p class="text-xs text-secondary mb-0">{{  $course->category->name  }}</p>
-                                                </div>
-                                            </div> --}}
+
+                                            </div>
                                         </td>
                                         <td>
-                                            <p class="text-xs font-weight-bold mb-0">{{ $course->name }} </p>
+                                            <p class="text-xs font-weight-bold mb-0 text-danger">{{ $course->name }} </p>
                                         </td>
                                         <td>
                                             <p class="text-xs font-weight-bold mb-0">{{ $course->description }}  </p>

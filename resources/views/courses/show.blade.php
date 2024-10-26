@@ -30,7 +30,7 @@
     <div class="content" style="">
         <div class="container">
             @foreach ($lessons as $lesson)
-                <div class="accordion" id="accordionExample">
+                <div class="accordion my-2" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"

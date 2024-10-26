@@ -1,3 +1,5 @@
+// const { document } = require("postcss")
+
 /*===== EXPANDER MENU  =====*/
 const showMenu = (toggleId, navbarId, bodyId) => {
     const toggle = document.getElementById(toggleId),
@@ -36,6 +38,24 @@ for (i = 0; i < linkCollapse.length; i++) {
         const rotate = collapseMenu.previousElementSibling
         rotate.classList.toggle('rotate')
     })
+}
+// alert 
+const alert = document.getElementById('alert');
+const break_line = document.getElementById('break-line');
+
+break_line.style.width = '0%';
+let width = 0;
+setInterval(()=>{
+    width+=2;
+    break_line.style.width = width + '%';
+    if(width === 100){
+        clearInterval(interval);
+    }
+},70)
+if (alert) {
+    setTimeout(()=>{
+        alert.style.display = 'none';
+    },3500)
 }
 
 
